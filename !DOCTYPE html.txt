@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Платформа для хранения фотографий</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>Платформа для хранения фотографий</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Главная</a></li>
+        <li><a href="#">Моя галерея</a></li>
+        <li><a href="#">Избранное</a></li>
+        <li><a href="#">Настройки</a></li>
+      </ul>
+    </nav>
+  </header>
+  <main>
+    <div class="gallery">
+      <!-- Здесь будут отображаться фотографии -->
+      <div class="photo">
+        <img src="photo1.jpg" alt="Фото 1">
+        <div class="photo-overlay">
+          <h3>Фото 1</h3>
+          <p>Описание фотографии 1</p>
+        </div>
+      </div>
+      <div class="photo">
+        <img src="photo2.jpg" alt="Фото 2">
+        <div class="photo-overlay">
+          <h3>Фото 2</h3>
+          <p>Описание фотографии 2</p>
+        </div>
+      </div>
+      <!-- Добавьте больше элементов .photo для отображения других фотографий -->
+    </div>
+    <div class="upload-form">
+      <input type="file" id="file-upload" accept="image/*">
+      <label for="file-upload">Загрузить фотографию</label>
+      <button id="upload-button">Загрузить</button>
+    </div>
+  </main>
+  <footer>
+    <p>© 02.09.2023 Платформа для хранения фотографий</p>
+    <a href="#">Соглашение о пользовании</a>
+  </footer>
+</body>
+</html>
